@@ -91,14 +91,37 @@ gotoxy(x, y);
 
 to place the player's car and obstacle cars in the console window.
 
-🎯 Obstacle Generation
+### 🎯 **Obstacle Generation**
 
 Random positions:
 int obstacleX = rand() % laneWidth;
 
-🎯 Speed Increase
+### 🎯 **Speed Increase**
 
 After scoring 20:
 if(score >= 20) speed = speed - 10;
 
-🎯 Collision Check
+### 🎯 **Collision Check**
+if(playerX == obstacleX && playerY == obstacleY)
+    gameOver = true;
+
+---
+
+### 💡 **Possible Future Improvements**
+- Add levels (Level 1, Level 2…)  
+- Add sound effects 
+- Add main menu & restart option  
+- Add color effects using Windows API   
+
+---
+
+
+## 👤 About Me
+
+**Momen Sarsour — Computer Systems Engineering**  
+📧 Email: **momensarsour5@gmail.com**  
+📱 WhatsApp: **+970567077179**
+
+❤️ Thank you for checking out this project!
+
+Feel free to star ⭐ the repository if you like it.
