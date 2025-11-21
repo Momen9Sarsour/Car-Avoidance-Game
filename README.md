@@ -85,8 +85,6 @@ Score: 18
 
 ### 🎯 **Movement**
 Using functions like:
-
-```cpp
 gotoxy(x, y);
 
 to place the player's car and obstacle cars in the console window.
